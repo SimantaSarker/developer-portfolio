@@ -23,7 +23,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav ul li {
   list-style: none;
@@ -75,7 +75,7 @@ nav ul {
 main {
   max-width: 1140px;
   margin: 0 auto;
-
+  max-height: 550px;
   background: #fff8f3;
 }
 .about {
@@ -105,10 +105,69 @@ main {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
- 
 }
-.about-info .info-title{
+.about-info .info-title {
   font-weight: 400;
   font-size: 20px;
   color: #757575;
 }
+/* what info-code */
+.what {
+  background-color: #fff;
+}
+.what-info {
+  margin-top: 133px;
+  text-align: center;
+}
+.what-info-heading {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-top: 30px;
+
+}
+.what-info-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+
+.skills-container {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-evenly;
+ 
+}
+/* .skill {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  margin-left: 24px;
+  max-width: 267px;
+  max-height: 377px;
+ 
+ 
+} */
+.skill{
+
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+
+  
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+ 
+}
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+/* resume part */
+
