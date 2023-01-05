@@ -187,24 +187,52 @@ main {
   color: #474747;
   margin-bottom: 10px;
 }
-.resume-harvard{
+.resume-harvard {
   font-weight: 600;
   font-size: 20px;
   color: #757575;
   margin-bottom: 20px;
 }
-.resume-skill{
+.resume-skill {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
-.resume-item{
+.resume-item {
   margin: 30px 0px;
 }
-.bton
-{
+.bton {
   margin-top: 50px;
   text-align: center;
-  
 }
- 
+
+/* contact style  */
+.contact
+ {
+  display: flex;
+  justify-content: space-between;
+  gap: 116px;
+  background-color: #fff8f3;
+  padding: 120px 230px;
+
+
+}
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+}
+.contact-para {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+.contact a img {
+  margin-top: 30px;
+  margin: 20px;
+}
+
+form input,textarea{
+  margin-top: 20px;
+}
